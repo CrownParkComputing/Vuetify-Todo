@@ -6,10 +6,10 @@
       <v-list-item>
         <v-list-item-content>
           <v-list-item-title class="title">
-            Application
+            To Do App 2021
           </v-list-item-title>
           <v-list-item-subtitle>
-            subtext
+            Menu
           </v-list-item-subtitle>
         </v-list-item-content>
       </v-list-item>

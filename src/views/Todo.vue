@@ -1,16 +1,11 @@
 <template>
   <div class="home">
-
-
-    <field-add-task 
+    <field-add-task
     />
 
     <list-tasks 
       v-if="$store.state.tasks.length"
     />
-
-    
-
     <div
       v-else
       class="no-tasks"
@@ -22,7 +17,7 @@
         mdi-check
       </v-icon>
       <div
-        class="text-h5 primary--text"> No Tasks</div>
+        class="text-h5 primary--text">No Tasks</div>
     </div>
   </div>
 </template>
@@ -44,7 +39,7 @@ export default {
 <style lang="sass">
 .no-tasks
   position: absolute
-  left:50%
+  left: 50%
   top: 50%
   transform: translate(-50%, -50%)
   opacity: 0.5
